@@ -7,3 +7,4 @@
 // }
 
 
+// 2. Print Numbers from N to 1 without changing the loop condition of above question

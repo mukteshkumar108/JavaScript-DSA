@@ -15,3 +15,4 @@
 //   console.log(num - i + 1);
 // }
 
+// 3. Print All Even Numbers from 1 to N

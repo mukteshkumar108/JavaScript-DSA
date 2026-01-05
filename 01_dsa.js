@@ -40,13 +40,13 @@
 
 // 5. Sum of First N Natural Numbers
 // Time Complexity O(1)
-console.time();
+// console.time();
 
-const num = 1000000000;
-let sum = (num * (num + 1)) / 2;
+// const num = 1000000000;
+// let sum = (num * (num + 1)) / 2;
 
-console.log(sum);
-console.timeEnd();
+// console.log(sum);
+// console.timeEnd();
 
 // 6. Sum of All Even Numbers up to N
 // console.time();

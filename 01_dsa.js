@@ -24,3 +24,16 @@
 //     console.log(i);
 //   }
 // }
+
+// 4. Product (Factorial) of N
+// console.time();
+
+// const num = 10n;
+// let product = 1n;
+
+// for (let i = 1n; i <= num; i++) {
+//   product *= i;
+// }
+
+// console.log(product);
+// console.timeEnd();

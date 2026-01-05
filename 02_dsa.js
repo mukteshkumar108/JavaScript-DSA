@@ -21,3 +21,5 @@
 //   }
 //   return 'Zero';
 // }
+
+// 3. Calculate Electricity Bill

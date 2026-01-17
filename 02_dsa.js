@@ -40,7 +40,7 @@
 // }
 
 
-3. Calculate Electricity Bill
+// 3. Calculate Electricity Bill
 function calculateElectricityBill(units) {
   let total = 0;
 

@@ -24,12 +24,27 @@ and the the line will have value but it will not print reason we did not add any
 then in 2nd loop the line we declared again with line + * will gonna add into more stars until the value of i becomes false to make condtion stop
 */
 
-for (let i = 0; i <= row; i++) { 
-    let line = " ";
-    for (let j = 5; j >= i; j--) {
-        // line = line + '*'
-        line += "*";
-    }
-    console.log(line);
-}
+// for (let i = 0; i <= row; i++) { 
+//     let line = " ";
+//     for (let j = 5; j >= i; j--) {
+//         // line = line + '*'
+//         line += "*";
+//     }
+//     console.log(line);
+// }
 
+// print pyramid pattern
+for(let i = 1; i <= 2*row - 1; i+=2) {
+    let str = ''
+    const currentRow = (i + 1) / 2
+
+    for(let j = 1; j <= row + currentRow - 1; j++) {
+        if(j <= row - currentRow) {
+            str += ' '
+        } else  {
+            str += '*'
+        }
+    }
+
+    console.log(str);
+}

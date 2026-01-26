@@ -49,19 +49,33 @@ then in 2nd loop the line we declared again with line + * will gonna add into mo
 //     console.log(str);
 // }
 
-const row = 8
+// const row = 8
 
-for(let i = 2*row - 1; i >= 1; i-=2) {
+// for(let i = 2*row - 1; i >= 1; i-=2) {
+//     let str = ''
+//     const currentRow = (i + 1) / 2
+
+//     for(let j = 1; j <= row + currentRow - 1; j++) {
+//         if(j <= row - currentRow) {
+//             str += ' '
+//         } else  {
+//             str += '*'
+//         }
+//     }
+//     console.log(str);
+// }
+
+const row = 6;
+
+for(let i = 1; i <=row; i++) {
     let str = ''
-    const currentRow = (i + 1) / 2
 
-    for(let j = 1; j <= row + currentRow - 1; j++) {
-        if(j <= row - currentRow) {
-            str += ' '
-        } else  {
-            str += '*'
+    for(let j = 1; j <= row; j++) {
+        if(i === 1 || i === row || j === 1 || j === row) {
+            str = str + '*'
+        } else {
+            str = str + ' '
         }
     }
-
     console.log(str);
 }
